@@ -1,0 +1,74 @@
+<ion-content padding>
+  <ion-grid fixed="true">
+    <ion-row>
+      <ion-col>
+        <h1 class="brand">
+          Brand Finder
+        </h1>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="2">
+        <ion-avatar>
+          <img [src]="'https://via.placeholder.com/150'" alt="" />
+        </ion-avatar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Username</ion-label>
+          <ion-input required></ion-input>
+        </ion-item>
+        <ion-label position="stacked">Write username, ex: rodasac</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" required></ion-input>
+        </ion-item>
+        <ion-label position="stacked">Write your user's password</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button
+          color="secondary"
+          expand="block"
+          [routerLink]="['/login/signup']"
+          strong="true"
+          size="large"
+          >Sign Up</ion-button
+        >
+      </ion-col>
+      <ion-col>
+        <ion-button color="primary" expand="block" strong="true" size="large"
+          >Login</ion-button
+        >
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="8">
+        <hr />
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="8">
+        <ion-button expand="block" color="medium">
+          <ion-icon slot="start" name="logo-google"></ion-icon>
+          Google
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-col size="8">
+        <ion-button expand="block" color="medium">
+          <ion-icon slot="start" name="logo-facebook"></ion-icon>
+          Facebook
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

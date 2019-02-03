@@ -1,0 +1,21 @@
+ion-grid {
+  .brand {
+    font-size: 3em;
+    text-align: center;
+  }
+  ion-avatar {
+    width: 100%;
+    height: auto;
+  }
+
+  hr {
+    border-top: 2px solid #b2b2b2;
+  }
+
+  ion-icon[name='logo-google'] {
+    color: #f1413c;
+  }
+  ion-icon[name='logo-facebook'] {
+    color: #335b94;
+  }
+}
