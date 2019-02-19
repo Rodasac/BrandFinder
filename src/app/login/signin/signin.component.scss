@@ -1,6 +1,6 @@
 ion-grid {
   .brand {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
   }
   ion-avatar {
@@ -10,6 +10,10 @@ ion-grid {
 
   hr {
     border-top: 2px solid #b2b2b2;
+  }
+
+  ion-button {
+    font-weight: 300;
   }
 
   ion-icon[name='logo-google'] {
